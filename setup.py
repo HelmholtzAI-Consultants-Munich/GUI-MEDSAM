@@ -10,10 +10,10 @@ from setuptools import find_packages, setup
 # Package metadata
 NAME = "MedSAM2"
 VERSION = "1.0"
-DESCRIPTION = "MedSAM2 was adapted from SAM2 (https://github.com/facebookresearch/sam2) for medical image segmentation."
-URL = "https://github.com/bowang-lab/MedSAM2"
-AUTHOR = "WangLab"
-AUTHOR_EMAIL = "medseg20s@gmail.com"
+DESCRIPTION = "GUI-MEDSAM is a napari GUI for MedSAM2. MedSAM2 was adapted from SAM2 (https://github.com/facebookresearch/sam2) for medical image segmentation."
+URL = "https://github.com/HelmholtzAI-Consultants-Munich/GUI-MEDSAM"
+AUTHOR = "GUI-MEDSAM: Piraud Lab, MedSAM2: WangLab"
+AUTHOR_EMAIL = "MedSAM2: medseg20s@gmail.com"
 LICENSE = "Apache 2.0"
 
 # Read the contents of README file
@@ -30,7 +30,7 @@ REQUIRED_PACKAGES = [
     "iopath>=0.1.10",
     "pillow>=10.4.0",
     "SimpleITK>=2.4.0",
-    "napari>=0.6"
+    "napari[all]>=0.6"
 ]
 
 EXTRA_PACKAGES = {
